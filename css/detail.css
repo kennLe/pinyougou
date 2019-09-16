@@ -1,0 +1,180 @@
+.de-container{
+    margin-top: 20px;
+}
+/*面包屑导航*/
+.crumb-wrap a{
+    margin-right: 10px;
+}
+.crumb-wrap{
+    height: 25px;
+}
+/*左侧盒子固定给宽高*/
+.preview-wrap{
+    width: 400px;
+    height: 590px;
+}
+.iteminfo-wrap{
+    width: 720px;
+
+}
+.preview-img{
+    text-align: center;
+    height: 398px;
+    border: 1px solid #ccc;
+    line-height: 398px;
+}
+.preview-list{
+    position: relative;
+    height: 60px;
+    background-color: #f7f7f7;
+    margin-top: 60px;
+}
+.list-item{
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+.list-item li{
+    float: left;
+    width: 56px;
+    height: 56px;
+    border: 2px solid transparent;
+    margin: 0 2px;
+}
+.list-item li.current{
+    border-color: #e60012;
+
+}
+.list-item img{
+    width: 56px;
+    height: 56px;
+}
+.arrow-prev,
+.arrow-next{
+    position: absolute;
+    width: 22px;
+    height: 32px;
+    background-color: red;
+    top: 15px;
+}
+.arrow-prev{
+    left: 0;
+}
+.arrow-next{
+    right: 0;
+}
+.arrow-prev img{
+    width: 22px;
+    height: 32px;
+}
+.arrow-next img{
+    width: 22px;
+    height: 32px;
+}
+.sku-name{
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.news{
+    color: red;
+    height: 32px;
+}
+.summary-price,
+.summary-promotion{
+    position: relative;
+    padding: 10px 0;
+    background-color: pink;
+
+}
+.summary dl{
+    overflow: hidden;
+}
+.summary dt,
+.summary dd{
+    float: left;
+}
+.summary dt{
+    width: 60px;
+    padding-left: 10px;
+
+}
+.price{
+    font-size: 24px;
+    color: red;
+}
+.summary-price a{
+    color: red;
+}
+.remark{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.summary-promotion{
+    padding: 0;
+}
+.summary-promotion dd{
+    width: 450px;
+}
+.summary-promotion em{
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    background-color: #C81623;
+    text-align: center;
+    line-height: 22px;
+    color: #ffffff;
+}
+.summary-peisong {
+    padding: 10px 0;
+}
+.summary-peisong dd{
+    width: 450px;
+}
+.summary-peisong dt{
+    line-height: 30px;
+}
+.summary-peisong  em{
+    display: inline-block;
+    width: 100px;
+    height: 22px;
+    float: left;
+    background-color: #fff;
+    text-align:center;
+    line-height: 22px;
+    border: 1px solid #cecbce;
+}
+.summary-peisong .youhuo{
+    float: left;
+    padding: 5px 10px;
+}
+.summary-peisong .zhichi{
+    float: left;
+    padding: 5px 10px;
+}
+.summary-peisong a{
+    float: left;
+    padding: 2px 10px;
+    height: 22px;
+    line-height: 22px;
+    color: blue;
+}
+.summary-peisong p{
+    float: left;
+}
+.choose-color dt{
+    line-height: 40px;
+}
+.choose-color a{
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    line-height: 41px;
+    text-align: center;
+}
+.choose-color .current{
+    border-color:#e12228;
+}

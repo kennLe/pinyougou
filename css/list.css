@@ -1,0 +1,147 @@
+.sk{
+    position: absolute;
+    width: 50px;
+    left: 185px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    top: 38px;
+}
+.sk img {
+    width: 50px;
+    height: 40px;
+}
+.sk-list li{
+    float: left;
+    line-height: 45px;
+    margin: 0 25px;
+}
+.sk-list li a{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+.sk-list li a：hover{
+    color: #C81623;
+}
+.sk-con li{
+    float: left;
+    font-size: 14px;
+    line-height: 45px;
+    margin: 0 25px;
+}
+.sk-con li a{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: icomoon;
+}
+.sk-container{
+    width: 1200px;
+}
+.sk-goods{
+    position: relative;
+    float: left;
+    width: 291px;
+    height: 458px;
+    border: 1px solid transparent;
+    margin: 0 12px 15px 0;
+}
+.sk-goods:hover{
+    border: 1px solid #e12228;
+}
+.sk-bd{
+    margin-top: 20px;
+}
+.sk-bd ul{
+    width: 1240px;
+}
+.sk-goods img{
+    margin: 35px 54px;
+
+}
+.sk-good-price{
+    padding: 0 15px;
+}
+.sk-good-price em{
+    color: red;
+    font-size: 22px;
+}
+.sk-good-price del{
+    font-size: 14px;
+    font-weight: 700;
+}
+.sk-goods-title{
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    padding: 1px 15px 15px;
+}
+.sk-goods-progress{
+    padding:0 10px;
+}
+.sk-goods-progress em,
+.sk-goods-progress i{
+    color: red;
+}
+.bar{
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border:1px solid #b1191a;
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.bar-in{
+    /*设置百分比多少条变化为多少*/
+    width: 87%;
+    height: 10px;
+    background-color: red;
+
+}
+.ck-goods-buy{
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #b1191a;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.page{
+    margin: 40px 0;
+    /*里面的文字内容 行内块 形内元素 都可以居中对齐*/
+    text-align: center;
+}
+.page-num a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #cccccc;
+    background-color: #f7f7f7;
+    
+}
+.page-num .pn-prev,
+.page-num .pn-next {
+    width: 83px;
+}
+/*带上父亲名字，权重问题，点击框消失*/
+.page-num .dotted,
+.page-num .current{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.page-skip input{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+.page-skip button{
+    width: 54px;
+    height: 36px;
+    border: 1px solid #cccccc;
+    background-color: #f7f7f7;
+}

@@ -1,0 +1,323 @@
+/*首页css样式*/
+.main{
+    width: 985px;
+    height: 455px;
+    background-color: white;
+    margin-left: 225px;
+    margin-top: 10px;
+}
+/*一个左浮动一个右浮动留出间隙*/
+.focus{
+    position: relative;
+    width: 720px;
+    height: 455px;
+    background-color: purple;
+    overflow: hidden;
+}
+.newsflash{
+    width: 250px;
+    height: 455px;
+    background-color: #ffffff;
+}
+.news{
+    height: 163px;
+    border: 1px solid #ccc;
+    color: pink;
+    font-weight: bold;
+}
+.news-hd{
+    height: 32px;
+    /*dotted点线 dashed虚线*/
+    border-bottom: 1px dotted #ccc;
+    padding: 0 15px ;
+    font-size: 14px;
+    /*垂直居中，横高等于高*/
+    line-height: 32px;
+}
+.news-hd a{
+    float: right;
+    font-size: 12px;
+    font-family: icomoon;
+}
+.news-bd{
+    /*上右下左*/
+    padding: 10px 0 0 15px;
+}
+/*给li标签添加高度*/
+.news-bd li{
+    height: 22px;
+}
+.lifesevice{
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.lifesevice ul{
+    width: 299px;
+}
+.lifesevice li{
+    /*只要ul能装下四个盒子*/
+    float: left;
+    height: 68.5px;
+    width: 62px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifesevice li a{
+    display: block;
+    /* overflow: hidden;解决i标签引起的外边距重叠合并问题（i标签与li标签外边距）*/
+    overflow: hidden;
+    height:100%;
+}
+.lifesevice li p{
+    text-align: center;
+}
+.sevice_ico{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-color: red;
+    background: url("../upload/318.jpg") no-repeat;
+    /*定义上下高度10px，左右自动对齐*/
+    margin: 10px auto;
+}
+.sevice_ico_huafei{
+    background-position: -28px -15px;
+}
+.sevice_ico_lvxing{
+    background-position: -98px -18px;
+}
+.sevice_ico_chexian{
+    background-position: -171px -16px;
+}
+.sevice_ico_game{
+    background-position: -243px -15px;
+}
+.sevice_ico_caipiao{
+    background-position: -25px -91px;
+}
+.sevice_ico_movie{
+    background-position: -97px -93px;
+}
+.sevice_ico_jiudian{
+    background-position: -174px -94px;
+}
+.sevice_ico_licai{
+    background-position: -243px -93px;
+}
+.sevice_ico_fuwu{
+    background-position: -25px -168px;
+}
+.sevice_ico_yanchu{
+    background-position: -101px -169px;
+}
+.sevice_ico_shuidianmei{
+    background-position: -174px -168px;
+}
+.sevice_ico_huochepiao{
+    background-position: -243px -169px;
+}
+.bargin img {
+    width: 250px;
+    height: 80px;
+
+}
+.focus ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+.focus ul li{
+    float: left;
+}
+.focus img{
+    width: 720px;
+    height: 455px;
+}
+.arrow-1,
+.arrow-r{
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background-color: pink;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    z-index: 2;
+}
+.arrow-r{
+    right: 0;
+}
+@font-face {
+    /*字体名称注意*/
+    font-family: 'icomoon';
+    /*路径问题要注意*/
+    /*从comoon里获取fonts里文件需要在前面加../ */
+    src:  url('../fonts/icomoon.eot?dru1x4');
+    src:  url('../fonts/icomoon.eot?dru1x4#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?dru1x4') format('truetype'),
+    url('../fonts/icomoon.woff?dru1x4') format('woff'),
+    url('../fonts/icomoon.svg?dru1x4#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.arrow-1,
+.arrow-r{
+    font-family: icomoon;
+    font-size: 18px;
+}
+.circle{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    /*中间白点*/
+    border: 1px solid #fff;
+    margin: 0 3px;
+    /*小圆圈*/
+    border-radius:50% ;
+    /*鼠标经过变小手*/
+    cursor: pointer;
+    
+}
+.current{
+    background-color: #fff;
+}
+.recommend{
+    height: 163px;
+    background-color: greenyellow;
+    margin-top: 10px;
+}
+.recom_hd{
+    width: 210px;
+    height: 163px;
+    background-color: #ccc;
+    text-align: center;
+}
+.recom_hd img{
+    width: 50px;
+    height: 50px;
+    margin: 30px 0 10px 0;
+}
+.recom_hd h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+.recom_bd{
+    overflow: auto;
+    width: 1000px;
+    height: 163px;
+    background-color: #fff;
+}
+.recom_bd li{
+    float: left;
+    width: 249px;
+    height: 163px;
+    border-right: 1px solid #ccc;
+}
+.recom_bd li img{
+    width: 249px;
+    height: 163px;
+}
+/* 直接用last，权重问题右边框去除不了，提权加.recom_bd*/
+.recom_bd .last{
+    border-right: 0;
+}
+.recom_bd .last img{
+    width: 249px;
+    height: 163px;
+}
+.box-hd{
+    height: 30px;
+    background-color: #fff;
+    border-bottom: 2px solid #C81623;
+    margin-top: 25px;
+}
+.box-hd h3{
+    float: left;
+    font-size: 18px;
+    color: #C81623;
+}
+.tab-list{
+    line-height: 30px;
+}
+.tab-list li{
+    float: left;
+}
+.tab-list li a{
+    margin: 0 15px;
+}
+.box-bd{
+    height: 360px;
+    background-color: #ffffff;
+}
+/*直接定义宽度，li直接调用*/
+.w209{
+    width: 209px;
+}
+.w329{
+    width: 329px;
+}
+
+.w222{
+    width: 222px;
+}
+
+.tab-con-item img{
+    float: left;
+    width: 221px;
+    height: 180px;
+}
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+.tab-con .w209 img{
+    width: 209px;
+    height: 360px;
+}
+.tab-con .w329 img{
+    height: 360.5px;
+    width: 329px;
+}
+.tab-con-item{
+    border-bottom: 1px solid #ffffff;
+}
+
+.tab-con-item img {
+    width: 222px;
+    height: 180px;
+}
+/*电梯导航*/
+.fixedtool{
+    position: fixed;
+    left: 50%;
+    margin-left: -680px;
+    top: 100px;
+    width: 66px;
+    background-color: #fff;
+}
+.fixedtool li{
+    height: 32px;
+    /*行高等于高垂直居中*/
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+.fixedtool .current{
+    background-color: #C81623;
+    color: #fff;
+}
